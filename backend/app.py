@@ -5,7 +5,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 app = Flask(__name__)
 
-TMDB_API_KEY = "398961f8f635303029a040e2610e75e3"
+TMDB_API_KEY = "API_KEY"
 TMDB_API_BASE = "https://api.themoviedb.org/3"
 
 def tmdb_search_movies(query, max_results=20):
