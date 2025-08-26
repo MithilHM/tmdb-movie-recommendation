@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-FLASK_API = "http://127.0.0.1:5000"
+FLASK_API = "https://tmdb-flask-backend.onrender.com"
 
 st.title("TMDb Movie Recommendation")
 
